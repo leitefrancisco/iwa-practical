@@ -1,0 +1,78 @@
+<?xml version "1.0" encoding = "UTF-8" ?>
+<menu>
+    <section name = "Drinks">
+        <entry>
+            <item>Coke</item>
+            <price>2.50</price>
+        </entry>
+        <entry>
+            <item>Vodka</item>
+            <price>15</price>
+        </entry>
+            <entry vegetarian = "true">
+            <item>Kombucha</item>
+        <price>2.5</price>
+        </entry>
+    </section>
+
+    <section name = "Side Dishes">
+        <entry>
+            <item>Potato Salad</item>
+            <price>2.50</price>
+        </entry>
+        <entry>
+            <item>Chips</item>
+            <price>4.50</price>
+        </entry>
+            <entry vegetarian = "true">
+            <item>Rice</item>
+        <price>2.5</price>
+        </entry>
+    </section>
+
+    <section name = "Breakfast">
+        <entry>
+            <item>Eggs Benedict</item>
+            <price>12.50</price>
+        </entry>
+        <entry>
+            <item>Poached Eggs</item>
+            <price>2.00</price>
+        </entry>
+        <entry vegetarian = "true">
+            <item>Toast</item>
+            <price>2.5</price>
+        </entry>
+    </section>
+
+    <section name = "Lunch">
+        <entry>
+            <item>Chicken Sandwich</item>
+            <price>12.50</price>
+        </entry>
+        <entry>
+            <item>Soup of the day</item>
+            <price>2.00</price>
+        </entry>
+        <entry vegetarian = "true">
+            <item>Falafel</item>
+            <price>2.5</price>
+        </entry>
+    </section>
+    
+    <section name = "Dinner">
+        <entry>
+            <item>Ribeye Steak</item>
+            <price>12.50</price>
+        </entry>
+        <entry>
+            <item>Sushi</item>
+            <price>2.00</price>
+        </entry>
+        <entry vegetarian = "true">
+            <item>Pasta</item>
+            <price>15</price>
+        </entry>
+    </section>
+
+</menu>
