@@ -1,21 +1,21 @@
 {
   "name": "iwa-practical",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "IWA demo project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leitefrancisco/iwa-practical.git"
+    "url": "git+https://github.com/mikhail-cct/iwa-practical.git"
   },
-  "author": "Francisco",
+  "author": "Mikhail",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/leitefrancisco/iwa-practical/issues"
+    "url": "https://github.com/mikhail-cct/iwa-practical/issues"
   },
-  "homepage": "https://github.com/leitefrancisco/iwa-practical#readme",
+  "homepage": "https://github.com/mikhail-cct/iwa-practical#readme",
   "dependencies": {
     "express": "^4.17.1",
     "fs": "^0.0.1-security",

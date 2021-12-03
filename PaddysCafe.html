@@ -41,6 +41,7 @@
 					// return the price as a decimal number with 2 decimal places
 					return Math.round(fBillTotal * 100.0) / 100.0;
 				};
+
 				// This function either turns on or off the row highlighting for vegetarian
 				// items (depending on the value of bShowVeg)
 				function highlightVegetarian(idTable, bShowVeg) {
@@ -62,6 +63,7 @@
 						};
 					};
 				};
+
 				// Utility function for getting the parent tag of a given tag
 				// but only of a certain type (i.e. a TR, a TABLE, etc.)
 				function getParentTag(oNode, sParentType) {
@@ -114,7 +116,7 @@
             <tr vegetarian="true">
                <td align="center"><input name="item0" type="checkbox"></td>
                <td>Kombucha</td>
-               <td align="right">2.5</td>
+               <td align="right">2.0</td>
             </tr>
             <tr>
                <td colspan="3">Side Dishes</td>
@@ -122,7 +124,7 @@
             <tr vegetarian="false">
                <td align="center"><input name="item0" type="checkbox"></td>
                <td>Potato Salad</td>
-               <td align="right">2.50</td>
+               <td align="right">4.95</td>
             </tr>
             <tr vegetarian="false">
                <td align="center"><input name="item0" type="checkbox"></td>
@@ -132,7 +134,7 @@
             <tr vegetarian="true">
                <td align="center"><input name="item0" type="checkbox"></td>
                <td>Rice</td>
-               <td align="right">2.5</td>
+               <td align="right">4.0</td>
             </tr>
             <tr>
                <td colspan="3">Breakfast</td>
@@ -140,35 +142,35 @@
             <tr vegetarian="false">
                <td align="center"><input name="item0" type="checkbox"></td>
                <td>Eggs Benedict</td>
-               <td align="right">12.50</td>
+               <td align="right">12.99</td>
             </tr>
             <tr vegetarian="false">
                <td align="center"><input name="item0" type="checkbox"></td>
                <td>Poached Eggs</td>
-               <td align="right">2.00</td>
+               <td align="right">8</td>
             </tr>
             <tr vegetarian="true">
                <td align="center"><input name="item0" type="checkbox"></td>
-               <td>Toast</td>
-               <td align="right">2.5</td>
+               <td>FrenchToast</td>
+               <td align="right">2.0</td>
             </tr>
             <tr>
                <td colspan="3">Lunch</td>
             </tr>
             <tr vegetarian="false">
                <td align="center"><input name="item0" type="checkbox"></td>
-               <td>Chicken Sandwich</td>
-               <td align="right">12.50</td>
+               <td>Grilled Chicken Sadnwich</td>
+               <td align="right">7.50</td>
             </tr>
             <tr vegetarian="false">
                <td align="center"><input name="item0" type="checkbox"></td>
-               <td>Soup of the day</td>
-               <td align="right">2.00</td>
+               <td>Soup of the Day</td>
+               <td align="right">6</td>
             </tr>
             <tr vegetarian="true">
                <td align="center"><input name="item0" type="checkbox"></td>
                <td>Falafel</td>
-               <td align="right">2.5</td>
+               <td align="right">10</td>
             </tr>
             <tr>
                <td colspan="3">Dinner</td>
@@ -176,16 +178,16 @@
             <tr vegetarian="false">
                <td align="center"><input name="item0" type="checkbox"></td>
                <td>Ribeye Steak</td>
-               <td align="right">12.50</td>
+               <td align="right">19.99</td>
             </tr>
             <tr vegetarian="false">
                <td align="center"><input name="item0" type="checkbox"></td>
                <td>Sushi</td>
-               <td align="right">2.00</td>
+               <td align="right">15</td>
             </tr>
             <tr vegetarian="true">
                <td align="center"><input name="item0" type="checkbox"></td>
-               <td>Pasta</td>
+               <td>Shahshuka</td>
                <td align="right">15</td>
             </tr>
          </tbody>
